@@ -8,6 +8,9 @@
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Button Text="Accelerator" Clicked="AccelerometerPage_Clicked"/>
+        <Button Text="Barometer" Clicked="BarometerPage_Clicked"/>
+        <Button Text="Connectivity" Clicked="ConnectivityPage_Clicked"/>
+        <Button Text="Magnetometer" Clicked="MagnetometerPage_Clicked"/>
     </StackLayout>
 
 </ContentPage>

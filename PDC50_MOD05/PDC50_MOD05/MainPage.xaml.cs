@@ -18,5 +18,20 @@ namespace PDC50_MOD05
         {
             await Navigation.PushAsync(new Page1());
         }
+
+        private async void BarometerPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BarometerPage());
+        }
+
+        private async void ConnectivityPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ConnectivityPage());
+        }
+
+        private async void MagnetometerPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MagnetometerPage());
+        }
     }
 }
